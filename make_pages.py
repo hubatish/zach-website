@@ -16,7 +16,7 @@ def main():
     os.makedirs(deploy_target)
     shutil.copytree(os.path.join(here, 'static'), os.path.join(deploy_target, 'static'))
 
-    pages = ['index.html', 'projects.html']
+    pages = ['index.html', 'games.html', 'resume.html']
 
     ctx = {}
     for page in pages:

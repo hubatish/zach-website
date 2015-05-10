@@ -1,0 +1,211 @@
+{% set cur_tab = 'resume' %}
+
+{% extends "base.html" %}
+
+{% block body %}
+    <div>
+		<h1>
+			Zachariah Gary Howell
+		</h1>
+		<p>
+			416 North Saunders Ave., Philadelphia, PA 19104
+            <span class="right">Download a printer friendly resume 
+                <a href="static/downloads/ZachHowellResume.pdf">here.</a>
+            </span>
+        </p>
+		<p>
+			919-800-8721
+		</p>
+		<p>
+			zachariah.howell@gmail.com
+        </p>
+        <p>
+			<hr size="2" width="100%" align="center"/>
+		</p>
+	</div>
+	<br clear="all"/>
+	<div>
+		<h3>
+			<strong>Work Experience</strong>
+		</h3>
+		<p>
+			Electronic Commission for Foreign Medical Graduates 
+			<span class="right">Philadelphia, PA </span>
+		</p>
+		<p>
+			Application Developer 
+			<span class="right">April to September, 2013 </span>
+		</p>
+		<ul>
+			<li>
+				Developed in a SCRUM team environment
+			</li>
+			<li>
+				Wrote SQL queries, WCF functionality, and VB code to broadcast info from database to front-end
+			</li>
+			<li>
+				Migrated infrastructure from Microsoft Server 2003 to Microsoft Server 2008
+			</li>
+		</ul>
+		<h3>
+			<strong>Game Projects</strong>
+		</h3>
+		<p>
+			<strong></strong>
+		</p>
+		<p>
+            <strong>Germ Wars</strong> 
+			<span class="right">Drexel University</span>
+		</p>
+		<p>
+			Sole Programmer 
+			<span class="right">November, 2012 </span>
+		</p>
+		<p>
+			Downloadable Game: https://github.com/hubatish/GermArena/blob/master/germWars.exe
+		</p>
+		<ul>
+			<li>
+				Built simple arcade-style "Germ Wars" in 3 weeks
+			</li>
+			<li>
+				Worked with artists and sound designer to make polished game
+			</li>
+		</ul>
+		<p>
+            <strong>Particle Paradox</strong>
+			<span class="right">Drexel University</span>
+		</p>
+		<p>
+			Coding Lead 
+			<span class="right">April to June, 2012</span>
+		</p>
+		<p>
+			Game Demo: http://du2012-grp049-05.blogspot.com/2012/06/dev-diary-1.html
+		</p>
+		<ul>
+			<li>Built a platform game, "Particle Paradox" in ten weeks
+			</li>
+			<li>
+				Modeled physics and collisions for 2D platformer
+			</li>
+			<li>
+				Helped others learn C#
+			</li>
+			<li>
+				Organized class hierarchy encompassing the player, enemies, and blocks
+			</li>
+		</ul>
+		<p>
+            <strong>Game Jam 2013 </strong>
+			<span class="right">Blackwood, NJ</span>
+		</p>
+		<p>
+			Programmer 
+			<span class="right">January 24-26, 2013</span>
+		</p>
+		<ul>
+			<li>
+				Created a game in 48 hours.
+			</li>
+			<li>
+				Worked with others to resolve conflicts in high pressure environment.
+			</li>
+			<li>
+				Coded and debugged much of Unity game.
+			</li>
+		</ul>
+	</div>
+	<br clear="all">
+	<div>
+		<p align="center">
+			<h3>Education</h3>
+		</p>
+		<p>
+			Drexel University, Philadelphia, PA
+		</p>
+		<p>
+			Bachelor of Science in Computer Science
+		    <span class="right">
+			    Anticipated Graduation - June 2016
+		    </span>
+		</p>
+		<p>
+			Concentration in Game Programming and Development
+		    <span class="right">
+			    Cumulative GPA: <strong>3.6</strong>
+		    </span>
+		</p>
+	</div>
+	<br clear="all"/>
+	<div>
+		<h3>
+			<strong>Honors and Awards</strong>
+		</h3>
+		<p>
+			National Merit Finalist Scholarship, Drexel University 
+			<span class="right"> Fall 2011 - Present </span>
+		</p>
+		<h3>
+			<strong>Computer Skills</strong>
+		</h3>
+		<p>
+			Languages: C++, C#, Visual Basic, HTML, Javascript, DOS, Bash
+		</p>
+		<p>
+			Programs: Microsoft Visual Studio, Word, PowerPoint, Excel; Adobe Illustrator, Photoshop; Unity; Maya
+        </p>
+    </div>
+	<br clear="all"/>
+    <div>
+		<h3>
+			<strong>Relevant Coursework</strong>
+		</h3>
+        <p>
+            Data Structures and Algorithms
+		<span class="right">
+			Computer Programming I, II
+        </span>
+        </p>
+		<p>
+			Math Foundations in Computer Science
+		    <span class="right">
+			    Overview of Gaming
+		    </span>
+		</p>
+		<p>
+			Software Design
+		    <span class="right">
+			    Calculus I, II, III, Physics I, II, III
+            </span>
+		</p>
+        <p>
+           Linear Algebra
+	        <span class="right">
+		        Game Development Foundations
+	        </span>
+        </p>
+	</div>
+	<br clear="all"/>
+	<div>
+		<h3>
+			<strong>Activities</strong>
+		</h3>
+		<p>
+			<strong></strong>
+		</p>
+		<p>
+			Treasurer, Drexel Game Developer's Group
+			<span class="right">November 2012 - Present </span>
+		</p>
+		<p>
+			Treasurer, Drexel Magic the Gathering Club
+			<span class="right">November 2012 - Present </span>
+		</p>
+		<p>
+			Member, International Game Developers Association
+			<span class="right">April 2012 - Present </span>
+		</p>
+	</div>
+    <br clear="all"/>
+{% endblock %}

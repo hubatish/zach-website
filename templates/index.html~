@@ -1,0 +1,16 @@
+{% set cur_tab = 'index' %}
+
+{% extends "base.html" %}
+
+{% block body %}
+<h1>Zach Howell</h1>
+    <img class="right" src="static/imgs/meCapeCod.jpg">
+    <h3>Contact Info</h3>
+        <p>zachariah.howell@gmail.com</p>
+        <p>(919) 800-8721</p>
+        <p>416 N. Saunders Ave., Philadlphia, PA, 19104 </p>
+    <h3>About</h3>
+        <p>I'm a third year Computer Science student at Drexel University.  I have extensive experience with C#, having spent six months working on ASP.NET MVC applications and written numerous games using Unity and XNA. Currently I'm looking for a game development coop (six month internship) starting in April 2014.  </p>
+        <p>Check out my <a href="./projects.html">Projects</a> and <a href="./resume.html">Resume</a> for more.  </p>
+{% endblock %}
+

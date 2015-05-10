@@ -1,0 +1,2 @@
+#!/bin/bash
+s3cmd --recursive --acl-public sync to-deploy/ s3://zachhowell

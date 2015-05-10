@@ -1,0 +1,20 @@
+{% set cur_tab = "projects" %}
+
+{% extends "base.html" %}
+
+{%block body %}
+<h1>Projects</p>
+    <h3>Mark of Mephisto</h3>
+        <p>My current project, Mark of Mephisto is a first person grappling hook game with elements of Mirror's Edge and Spider Man 2.  Play as a betrayed princess trying to save her counry, and her soul, by escaping from hell!  I'm the programming lead in a group of 3 programmers, 2 level designers, 2 artists, and 1 producer.  Communicating with the rest of the team and managing the programmer's efforts is a challenge in such a large team.  We manage using TortoiseSVN to share files, with weekly team meetings and much more frequent committee meetings and informal facebook chat and impromptu get-togethers.  Built in Unity 3D with C# scripting, integrated together with Maya models and Unity levels. </p>
+        <p>You can play a sample level <a href="./static/games/MoMRunAndSwing09-10/MoMRunAndSwing09-10.html">here!</a></p>
+    <h3>Germ Wars</h3>
+        <img src="./static/imgs/GermWars.jpg" alt="Germ Wars">
+        <p>Germ Wars is an arcade style dodge and grab game.  Play as an antibody fighting germs by eating those of the same color and dodging the rest.  Pills let you change color, or even temporarily become a Super Germ!  </p>
+        <p>Germ Wars started as a class project for Overview of Gaming.  As the sole programmer, I made the game using Gamemaker in three weeks. You can play an older version on Gamemaker's Steam Workshop page, and view my struggles as I continued working on the game, exporting it to Android, at <a href="http://howellzach.blogspot.com/">Germ Wars Blog</a></p>
+    <h3>Particle Paradox</h3>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/x--0L7h34gs" frameborder="0" allowfullscreen></iframe>
+        <p>Another student project, I worked on Particle Paradox in a team of three over ten weeks.  We started from scratch, learning C# and XNA as we went along.  I developed a systems like physics, parallax scrolling, cool particle effects, and generally did most of the coding.  </p>
+        <p>Here's a link to the blog we kept during production of the game: <a href="http://du2012-grp049-05.blogspot.com/">Particle Paradox Blog</a></p>
+
+{% endblock %}
+
